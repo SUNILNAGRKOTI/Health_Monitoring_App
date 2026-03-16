@@ -1,31 +1,28 @@
-<div align="center">
-  <img src="assets/MY_LOGO.png" alt="App Logo" width="120"/>
-  
-  # Health Monitoring App
-  
-  <b>Your Personal Health Assistant</b>
-  
-  <i>Track, analyze, and improve your health with AI-powered insights, beautiful charts, and seamless notifications.</i>
-</div>
+
+# Health Monitoring App
+
+Your Personal Health Assistant
+
+Track, analyze, and improve your health with advanced insights, beautiful charts, and seamless notifications.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 Secure Login & Sign Up (with Firebase Auth & Google Sign-In)
-- 🏠 Beautiful Splash Screen
-- 📊 Health Data Tracking & Visualization (charts, graphs)
-- 🤖 AI Health Assistant (Gemini AI integration)
-- 🩺 Camera-based Heart Rate Scanner
-- 🔔 Smart Notifications & Reminders
-- 🗂️ Local & Cloud Data Storage
-- 📄 PDF Report Generation
-- 🌙 Dark & Light Mode
-- 📱 Responsive UI for all devices
+- Secure Login & Sign Up (Firebase Auth & Google Sign-In)
+- Splash Screen
+- Health Data Tracking & Visualization (charts, graphs)
+- AI Health Assistant (Gemini AI integration)
+- Camera-based Heart Rate Scanner
+- Smart Notifications & Reminders
+- Local & Cloud Data Storage
+- PDF Report Generation
+- Dark & Light Mode
+- Responsive UI for all devices
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 
 <div align="center">
@@ -68,52 +65,61 @@
   </table>
 </div>
 
-<p align="center"><i>Each screenshot above represents a real screen from the app, giving you a complete visual overview of the Health Monitoring App's user interface.</i></p>
+
+<p align="center">Each screenshot above represents a real screen from the app, giving you a complete visual overview of the Health Monitoring App's user interface.</p>
+
 
 ---
 
-## 🛠️ Tech Stack
+## Technology Stack
 
-- **Flutter** (3.x)
-- **Firebase** (Auth, Firestore)
-- **Google Sign-In**
-- **Gemini AI API**
-- **Provider** (State Management)
-- **Shared Preferences**
-- **Camera, Image Picker**
-- **Local Notifications**
-- **Charts: fl_chart, syncfusion_flutter_charts**
-- **PDF: pdf**
-
----
-
-## 📦 Getting Started
-
-1. **Clone the repo:**
-	```bash
-	git clone https://github.com/SUNILNAGRKOTI/Health_Monitoring_App.git
-	cd Health_Monitoring_App
-	```
-2. **Install dependencies:**
-	```bash
-	flutter pub get
-	```
-3. **Add your Firebase config:**
-	- Place your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) in the respective folders.
-4. **Run the app:**
-	```bash
-	flutter run
-	```
+- Flutter (3.x)
+- Firebase (Auth, Firestore)
+- Google Sign-In
+- Gemini AI API
+- Provider (State Management)
+- Shared Preferences
+- Camera, Image Picker
+- Local Notifications
+- Charts: fl_chart, syncfusion_flutter_charts
+- PDF: pdf
 
 ---
 
-## 🙏 Credits
+## Getting Started
+
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/SUNILNAGRKOTI/Health_Monitoring_App.git
+  cd Health_Monitoring_App
+  ```
+2. Install dependencies:
+  ```bash
+  flutter pub get
+  ```
+3. Add your Firebase configuration:
+  - Place your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS) in the respective folders.
+4. Set up your Gemini API key securely:
+  - Do not hardcode your API key in the code.
+  - Run or build the app with:
+    ```bash
+    flutter run --dart-define=GROQ_API_KEY=your_key_here
+    flutter build apk --dart-define=GROQ_API_KEY=your_key_here
+    ```
+5. Run the app:
+  ```bash
+  flutter run
+  ```
+
+---
+
+## Credits
 
 - Developed by Sunil Nagarkoti
 - Special thanks to the Flutter & Firebase community
 
 ---
 
-## 📫 Contact
+## Contact
 
-For queries or feedback, reach out at: sunilsinghnagarkoti108@gmail.com
+For queries or feedback, email: sunilsinghnagarkoti108@gmail.com
