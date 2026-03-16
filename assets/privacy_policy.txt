@@ -1,0 +1,27 @@
+Privacy Policy for Healthify
+
+Effective Date: March 15, 2026
+
+Your privacy is important to us. This policy explains how Healthify collects, uses, and protects your information.
+
+1. Data Collection
+- We collect only the data you provide (e.g., health logs, profile info) and anonymous analytics.
+- We do not collect sensitive personal data without your consent.
+
+2. Data Usage
+- Data is used to provide app features, personalize your experience, and improve the app.
+- We do not sell or share your data with third parties except for essential services (e.g., Firebase, AdMob).
+
+3. Ads
+- Healthify uses Google AdMob to show ads. AdMob may collect device and usage data for ad targeting. See Google’s privacy policy for details.
+
+4. Security
+- Your data is stored securely using Firebase and protected by authentication.
+
+5. Your Choices
+- You can delete your account and data at any time from the app settings.
+
+6. Contact
+- For privacy questions, contact: healthify.support@email.com
+
+By using Healthify, you agree to this policy. We may update it as needed. Latest version is always available in the app.

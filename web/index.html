@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="SwasthyaAI - Your Health Companion">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="SwasthyaAI">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>SwasthyaAI</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<!-- Firebase SDK v9 -->
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
+  import { getAuth } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
+  import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBIiTjxm2S9tjFsgDgYd51nA5noJ7yqZsw",
+    authDomain: "swasthyaai-health-app.firebaseapp.com",
+    projectId: "swasthyaai-health-app",
+    storageBucket: "swasthyaai-health-app.firebasestorage.app",
+    messagingSenderId: "196805937310",
+    appId: "1:196805937310:web:dd95c554b6c68b8016138f",
+    measurementId: "G-JBWVWEDXXH"
+  };
+
+  window.firebaseApp = initializeApp(firebaseConfig);
+  window.firebaseAuth = getAuth(window.firebaseApp);
+  window.firebaseFirestore = getFirestore(window.firebaseApp);
+</script>
+
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

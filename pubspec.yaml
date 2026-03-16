@@ -1,0 +1,136 @@
+name: major_project
+description: Healthify - Your Personal Health Assistant
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core (Required for all Firebase services)
+  firebase_core: ^2.27.0
+
+  # Firebase Authentication
+  firebase_auth: ^4.17.8
+
+  # Cloud Firestore (Database)
+  cloud_firestore: ^4.15.8
+
+  # Google Sign In
+  google_sign_in: ^6.2.1
+
+  # State Management
+  provider: ^6.1.1
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # Network & HTTP
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # AI & Machine Learning
+  google_generative_ai: ^0.2.2  # Gemini AI API
+
+  # UI & Navigation
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+
+  # Animations & Gestures
+  flutter_staggered_animations: ^1.1.1
+  lottie: ^2.7.0
+
+  # Date & Time
+  intl: ^0.19.0
+
+  # Device Features
+  image_picker: ^1.0.4
+
+  # Camera (for AI Health Scanner - PPG heart rate detection)
+  camera: ^0.10.5+9
+
+  # Notification System
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  permission_handler: ^11.3.1
+
+  # Charts & Data Visualization
+  fl_chart: ^0.68.0
+  syncfusion_flutter_charts: ^24.1.41
+
+  # PDF Generation & Printing
+  pdf: ^3.10.7
+  # printing: ^5.10.4  # Temporarily removed due to build errors
+  path_provider: ^2.1.1
+  url_launcher: ^6.2.2
+
+  # Utilities
+  uuid: ^4.2.1
+
+  # Google Mobile Ads
+  google_mobile_ads: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  # App Icon & Splash Screen Generator
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+
+  # Assets - Your Logo
+  assets:
+    - assets/MY_LOGO.png
+
+# APP ICON CONFIGURATION
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/MY_LOGO.png"
+  min_sdk_android: 21
+
+  # Android Adaptive Icon
+  adaptive_icon_background: "#0A0E21"
+  adaptive_icon_foreground: "assets/MY_LOGO.png"
+
+  # Remove Flutter default icon
+  remove_alpha_ios: true
+
+# SPLASH SCREEN CONFIGURATION
+flutter_native_splash:
+  # Background color (matches Flutter splash — seamless transition)
+  color: "#0A0E21"
+
+  # Platforms
+  android: true
+  ios: true
+  web: false
+
+  # Dark mode
+  color_dark: "#0A0E21"
+
+  # Android 12+ Configuration
+  android_12:
+    color: "#0A0E21"
+    icon_background_color: "#0A0E21"
+
+  # Fullscreen
+  fullscreen: true
+
+  # Gravity
+  android_gravity: center
+  ios_content_mode: center
